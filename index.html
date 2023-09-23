@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: 'Josefin Sans', sans-serif;
+      box-sizing: border-box;
+    }
+
+    .hero {
+      height: 100vh;
+      width: 100%;
+      background-image: url('img/john.jpg'); /* Corrected the background image path */
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <!-- hero Section start -->
+
+  <div class="hero">
+    <nav>
+      <h2 class="logo">Portfo<span>lio</span></h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <a href="#" class="btn">Subscribe</a>
+    </nav>
+
+    <div class="content">
+      <h4>Hello, My name is</h4>
+      <h1>Shishukant <span>Nirala</span></h1>
+      <h3>I am a <span>B.Sc.</span> Student.</h3>
+      <div class="newsletter">
+        <form>
+          <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+          <input type="submit" name="submit" value="Let's Start">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- About section start -->
+  <section class="about">
+    <div class="main">
+      <img src="img/main.jpg" alt="Profile Picture">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h5>Student & <span>Tech Lover</span></h5>
+        <p>I am Shishukant Nirala, a B.Sc. Cloud Computing student at MIT-WPU, with a strong passion for tech, programming, and IT. Embracing cloud innovation, I constantly explore its boundaries and strive to make a difference in the digital world. Equipped with excellent technical skills in programming and algorithms, I am a collaborative problem-solver with a continuous learning mindset. Aspiring to contribute to the transformative power of cloud computing.</p>
+        <button type="button" onclick="window.location.href='https://in.linkedin.com/in/shishukant-nirala-811a16279'">Let's Talk</button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Service section start -->
+  <div class="service">
+    <div class="title">
+      <h2>Our Services</h2>
+    </div>
+
+    <div class="box">
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5>Web Development</h5>
+        <div class="pra">
+          <p>Web dev goals: Device compatibility and maximum speed for superior user experience. Know more about Web Development.</p>
+          <p style="text-align: center;">
+            <a class="button" href="https://brainstation.io/career-guides/what-is-web-development#:~:text=Web%20development%2C%20also%20known%20as,web%20programming%2C%20and%20database%20management.">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="far fa-user"></i>
+        <h5>UI/UX Design</h5>
+        <div class="pra">
+          <p>Creating intuitive and user-friendly interfaces for websites and applications to enhance the user experience. Know more about UI/UX.</p>
+          <p style="text-align: center;">
+            <a class="button" href="https://flatironschool.com/blog/what-is-ux-ui-design/">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="far fa-bell"></i>
+        <h5>Digital Marketing</h5>
+        <div class="pra">
+          <p>Effective online marketing strategies to reach a wider audience and boost brand presence. Know more about Digital Marketing.</p>
+          <p style="text-align: center;">
+            <a class="button" href="https://neilpatel.com/what-is-digital-marketing/">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Me section -->
+  <div class="contact-me">
+    <p>Let Me Get You a Beautiful Website.</p>
+    <a class="button-two" href="#enter-email">Hire Me</a>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <p>Shishukant Nirala</p>
+    <p>For contacting me through my social media - please click on the link below </p>
+    <div class="social">
+      <a href="https://www.facebook.com/shishukant.nirala.5/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com/@Throttle4Life"><i class="fab  fa-youtube"></i></a>
+      <a href="https://instagram.com/throttle.4.life/"><i class="fab fa-instagram"></i></a>
+      <a href="https://in.linkedin.com/in/shishukant-nirala-811a16279"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/Shishukant28"><i class="fab fa-github"></i></a>
+    </div>
+    <p class="end">Copyright by Shishukant Nirala</p>
+  </footer>
+</body>
+</html>
